@@ -1,3 +1,5 @@
+/// Author: Koushik Roy
+
 // Because the example already has a dummy table entry as #1
 // the first element inserted by our code should be #2
 var startCnt = 2;

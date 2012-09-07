@@ -1,3 +1,5 @@
+/// Author: Koushik Roy
+
 /// Library includes
 var express = require('express'); // Express is our web framework
 var sqlite3 = require('sqlite3'); // Allows us to access sqlite3 db files
