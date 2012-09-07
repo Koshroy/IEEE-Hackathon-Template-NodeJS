@@ -4,10 +4,10 @@ IEEE Hackathon Fall 2012 Node.js Template
 Stack Details
 -------------
 
-Server: Node
-Web Framework: Express
-Template Engine: Whiskers
-Database Library: SQLite3
+- Server: Node
+- Web Framework: Express
+- Template Engine: Whiskers
+- Database Library: SQLite3
 
 Instructions
 ------------
