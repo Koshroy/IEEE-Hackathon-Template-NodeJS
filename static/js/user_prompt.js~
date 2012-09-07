@@ -1,0 +1,26 @@
+var startCnt = 2;
+var delimChar = '|';
+
+function initFunc()
+{
+    $("#userBtn").submit(userSubmit);
+}
+
+function userSubmit()
+{
+    $.post("/givename",
+	   {
+	       name: $("$nameBox").val()
+	   }, tableEntryAdd, 'text');
+}
+
+function tableEntryAdd(data)
+{
+    if (data != "error")
+    {
+	var splitData = data.split(delimChar);
+	$("#tableBody").append("<tr><td>"+startCnt+"</td><td>"+splitData[0]+"</td><td>"+splitData[1]+"</td></tr>");
+    }
+}
+
+$(document).ready(initFunc);

@@ -1,0 +1,11 @@
+{
+    "name" : "example",
+    "description" : "A demonstration of the Express Javascript framework",
+    "version" : "0.0.1",
+    "private" : true,
+    "dependencies" : {
+	"express" : "3.x",
+	"sqlite3" : ">= 2.1.5",
+	"whiskers" : ">= 0.2.3"
+    }
+}
