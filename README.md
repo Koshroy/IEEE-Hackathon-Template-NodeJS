@@ -17,5 +17,5 @@ Instructions
 3. Navigate to the directory with the source files and
 run `npm install`
 4. Run `node app.js` in order to run the server
-5. Navigate your browser to [http://localhost:3000] in order to view
+5. Navigate your browser to [http://localhost:3000](http://localhost:3000) in order to view
 the page.
