@@ -8,6 +8,8 @@ Stack Details
 - Web Framework: Express
 - Template Engine: Whiskers
 - Database Library: SQLite3
+- Javascript Client Library: JQuery
+- CSS Library: Twitter Bootstrap
 
 Instructions
 ------------
